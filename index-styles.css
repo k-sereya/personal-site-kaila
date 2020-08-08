@@ -1,0 +1,108 @@
+/*TODO: Add a background color or image to your website*/
+body {
+  background-color: #ffffff;
+  border-style: double;
+  border-color: #ffe6e6;
+  border-width: 10px;
+}
+/*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
+h1 {
+  color: #b3c6ff;
+  background-color: #ffe6e6;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+.heading a {
+  list-style-type: none;
+  color: #809fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Montez', cursive;
+  text-align: center;
+  font-size: 4em;
+}
+
+/*TODO: Use the * selector to reset the margin and padding to 0px*/
+* {
+  margin: 10px;
+  padding: 0.5px;
+}
+
+/*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
+ul {
+  list-style-type: none;
+  background-color: #b3c6ff;
+  overflow: hidden;
+  padding: 2em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.3em;
+}
+
+/*TODO: Add styling rules for the text and images on your website.*/
+.imagewithcaption {
+  color: #ffb3b3;
+  font-family: 'Montez', cursive;
+  text-align: center;
+}
+
+.imagewithcaption img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.description {
+  color: #809fff;
+  font: 'Montez', cursive;
+  letter-spacing: 1px;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h4 {
+  letter-spacing: 4px;
+}
+.description a {
+  list-style-type: none;
+  color: #809fff;
+}
+.Youtube {
+  margin-bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-shrink: 100px;
+}
+.Youtube h4 {
+  letter-spacing: 2px;
+  color: #809fff;
+}
+
+.container img {
+  background-color: white;
+  max-width: 100px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex*/
